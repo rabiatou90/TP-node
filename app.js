@@ -3,7 +3,8 @@ const { connectDB } = require('./config/database');
 const PORT = process.env.PORT || 3030;
 const twig = require('twig');
 var app = express();
-const User = require('./models/User');
+const User = require('./models/User');  
+
 // Importation du fichier de route user.js
 const userRoutes = require('./routes/user');
 
